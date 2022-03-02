@@ -1,0 +1,24 @@
+.headerStyle {
+  background-color: transparent !important;
+}
+
+.ui.menu {
+  box-shadow: none !important;
+  border: none !important;
+}
+
+.ui.menu .item:before {
+  position: relative !important;
+}
+
+.menuSignature {
+  padding-top: none !important;
+  padding-right: 10px;
+  flex-direction: column !important;
+  justify-content: center !important;
+}
+
+.menuSignature h1 {
+  font-family: cursive;
+  color: blue;
+}
