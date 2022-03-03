@@ -1,10 +1,6 @@
+/*Header styling*/
 .headerStyle {
   background-color: transparent !important;
-}
-
-.ui.menu {
-  box-shadow: none !important;
-  border: none !important;
 }
 
 .ui.menu .item:before {
@@ -13,7 +9,6 @@
 
 .menuSignature {
   padding-top: none !important;
-  padding-right: 10px;
   flex-direction: column !important;
   justify-content: center !important;
 }
@@ -21,4 +16,143 @@
 .menuSignature h1 {
   font-family: cursive;
   color: blue;
+}
+
+.ui.labeled.icon.menu.headerStyle {
+  box-shadow: none !important;
+  border: none !important;
+  width: 100%;
+}
+
+.infoDiv {
+  text-align: center;
+}
+
+.right.menu.menuSignature.wrapper {
+  margin-right: 5px;
+}
+
+/*App Styling*/
+
+/* bigshot one font */
+@import url(https://fonts.googleapis.com/css?family=Cabin+Condensed);
+
+body {
+  height: 100%;
+  width: 100%;
+}
+
+#root {
+  height: 100%;
+}
+
+.appBody {
+  height: 100%;
+  display: flex !important;
+  flex-direction: column !important;
+  margin: auto;
+  overflow: scroll;
+  width: 100%;
+}
+
+/*BannerWelcome Styling */
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+.title {
+  font-family: 'Montserrat';
+  text-align: center;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  letter-spacing: 1px;
+  width: 100%;
+}
+
+.title h1 {
+  background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
+  background-size: cover;
+  color: transparent;
+  -moz-background-clip: text;
+  -webkit-background-clip: text;
+  text-transform: uppercase;
+  font-size: 120px;
+  line-height: 1;
+  margin: 10px 10px;
+}
+/* styling my button */
+
+.white-mode {
+  text-decoration: none;
+  padding: 7px 10px;
+  background-color: #122;
+  border-radius: 3px;
+  color: #fff;
+  transition: 0.35s ease-in-out;
+  margin: 20px;
+  font-family: 'Montserrat';
+  position: absolute;
+  right: 5px;
+  bottom: 5px;
+}
+
+.white-mode:hover {
+  background-color: #fff;
+  color: #122;
+}
+
+/*Myinfo Styling */
+.myInfo {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: white;
+  padding: 10px;
+  border-radius: 25px;
+  box-shadow: 5px 10px #888888;
+  margin: 20px 20px 20px 20px;
+}
+
+.myInfo > div {
+  text-align: center;
+  font-size: 20px;
+}
+.topText {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.myPortfolio {
+  margin: 40px 100px;
+}
+
+.myInfo > img {
+  display: block;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*Experience Styling */
+.expSlider {
+  width: 100%;
+  display: block;
+  border-radius: 25px;
+  padding: 20px 20px 20px 20px;
+  justify-content: center;
+  max-height: 530px !important;
+}
+.expSlider h1 {
+  font-size: 40px;
+  text-shadow: 3px 3px grey;
+  font-weight: bold;
+  font-family: fantasy;
+  color: darksalmon;
+}
+.expSlider p {
+  color: darksalmon;
+  font-weight: bold;
+  font-size: 17px;
 }
