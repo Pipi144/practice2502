@@ -53,6 +53,10 @@ body {
   margin: auto;
   overflow: scroll;
   width: 100%;
+  z-index: 1;
+}
+.appBody > div {
+  margin-bottom: 40px;
 }
 
 /*BannerWelcome Styling */
@@ -96,10 +100,12 @@ body {
   position: absolute;
   right: 5px;
   bottom: 5px;
+  z-index: 2;
+  box-shadow: 5px 5px grey;
 }
 
 .white-mode:hover {
-  background-color: #fff;
+  background-color: lightblue;
   color: #122;
 }
 
@@ -155,4 +161,32 @@ body {
   color: darksalmon;
   font-weight: bold;
   font-size: 17px;
+}
+
+/*Skill List Style*/
+.skillListStyle {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 25px;
+  box-shadow: 5px 10px #888888;
+}
+.textSkillStyle {
+  text-align: center;
+  border-bottom: 3px solid black;
+  padding: 15px;
+}
+
+.textSkillStyle p {
+  font-size: 20px;
+}
+
+.ratingSectionStyle {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  width: 100%;
 }

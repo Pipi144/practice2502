@@ -45,6 +45,17 @@ const Experience = () =>{
             <p>Academy of Information Technology</p>
           </Carousel.Caption>
         </Carousel.Item>
+        <Carousel.Item style={{width: "100%", height: "550px"}}>
+          <img
+            className="d-block w-100"
+            src={require("./pic/carousel4.png")} style={{borderRadius: "25px", height: "550px"}}
+            alt="First slide"
+          />
+          <Carousel.Caption>
+            <h1>First Freelance product powered by Shopify</h1>
+            <p>Best Beean Best Cup Pty Ltd</p>
+          </Carousel.Caption>
+        </Carousel.Item>
       </Carousel>
       
    </div>

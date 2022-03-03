@@ -3,8 +3,8 @@ import Header from './Header';
 import './App.css'
 import BannerWelcome from './BannerWelcome';
 import MyInfo from './MyInfo';
-import SkillRating from './SkillRating';
 import Experience from './Experience';
+import SkillList from './SkillList/SkillList';
 
 class App extends React.Component {
   render() {
@@ -13,7 +13,8 @@ class App extends React.Component {
       <Header />
       <BannerWelcome/>
       <MyInfo />
-      <Experience style={{maxHeight: "500px !important" }}/>
+      <Experience/>
+      <SkillList/>
     </div> 
    );
   }
