@@ -1,6 +1,7 @@
 import React from 'react'
 import "../App.css"
 import RatingList from './RatingList'
+import LanguageList from './LanguageList'
 const SkillList = () => {
   return (
     <div className="skillListStyle">
@@ -12,6 +13,10 @@ const SkillList = () => {
       <div className='ratingSectionStyle'>
        <h3>Skills</h3>
        <RatingList/>
+      </div>
+      <div className='ratingSectionStyle'>
+       <h3>Language</h3>
+       <LanguageList />
       </div>
     </div>
   )

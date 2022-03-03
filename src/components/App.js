@@ -5,7 +5,7 @@ import BannerWelcome from './BannerWelcome';
 import MyInfo from './MyInfo';
 import Experience from './Experience';
 import SkillList from './SkillList/SkillList';
-
+import VideoList from './VideoList';
 class App extends React.Component {
   render() {
    return (
@@ -15,6 +15,7 @@ class App extends React.Component {
       <MyInfo />
       <Experience/>
       <SkillList/>
+      <VideoList />
     </div> 
    );
   }

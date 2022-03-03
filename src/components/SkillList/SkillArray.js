@@ -1,5 +1,3 @@
-import React from 'react'
-
 const SkillArray = [
   {language: "Javascript", rate: "4"},
   {language: "CSS", rate: "4"},
@@ -11,6 +9,7 @@ const SkillArray = [
   {language: "Python", rate: "3"},
   {language: "Figma", rate: "4"},
   {language: "Shopify", rate: "3"},
+  {language: "Git/Github", rate: "5"},
  ]
 
 export default SkillArray

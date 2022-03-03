@@ -6,7 +6,7 @@ const RatingList = () => {
    return <RatingItem language={skill.language} rate={skill.rate}/> 
   })
   return (
-    <div style={{display: "flex", flexDirection: "column"}}>
+    <div style={{display: "flex", flexDirection: "column", borderBottom: "1px solid grey"}}>
       {skillList}
     </div>
   )
