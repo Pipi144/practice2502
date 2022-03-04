@@ -5,7 +5,7 @@ const MyInfo =() =>{
  return (
   <div className="myInfo">
    <div className="topText" style={{borderBottom: "2px solid black"}}>
-    <h1 style={{fontSize: "50px", fontFamily: "fantasy", color: "gray", letterSpacing:"3px"}}><bold>MY PROFILE</bold></h1>
+    <h1 style={{fontFamily: "fantasy", color: "gray", letterSpacing:"3px"}}><bold>MY PROFILE</bold></h1>
     <p>I'm a front-end Developer specialized in React</p>
    </div>
 
