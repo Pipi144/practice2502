@@ -1,11 +1,20 @@
 import React from "react";
 import "./App.css"
+import Scroll from 'react-scroll';
+
+const Link = Scroll.ScrollLink;
 
 const BannerWelcome = () => {
  return (
   <div className="title">
    <h1 >welcome<br/><br/>recruiter</h1>
-   <a href="/src/dowloadFile/Resume.zip" download class="white-mode">Download My Resume</a>
+   <div className="sideMenu">
+         <a>My Profile</a>
+    <a>Skills</a>
+    <a>Experience</a>
+    <a>Greeting</a>
+   </div>
+   
   </div>
  )
 }

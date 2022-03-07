@@ -4,6 +4,7 @@ import "./Header.scss"
 
 const Header = () => {
  return (
+<div className="aos" data-aos="fade-out">
   <div className="header">
     <div className="ui labeled icon menu headerStyle">
       <a className="item" href="https://www.linkedin.com/feed/" target="_blank">
@@ -18,6 +19,7 @@ const Header = () => {
        <h1>I'm PiPi</h1>
       </div>
    </div>
+  </div>
   </div>
  );
 }

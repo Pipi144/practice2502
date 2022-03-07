@@ -3,6 +3,7 @@ import "./App.css"
 import "./Header.scss"
 import { Carousel } from "react-bootstrap";
 import { useState } from "react";
+import {Element} from "react-scroll";
 const Experience = () =>{
   const [index, setIndex] = useState(0);
 
@@ -10,7 +11,8 @@ const Experience = () =>{
     setIndex(selectedIndex);
   };
  return (
-   <div className="expSlider">
+   <Element id="elementExperience" name="elementExperience">
+   <div className="expSlider" id="expSection">
     <Carousel style={{width: "100%"}} activeIndex={index} onSelect={handleSelect} fade>
         <Carousel.Item style={{width: "100%", height: "550px"}}>
           <img
@@ -59,6 +61,7 @@ const Experience = () =>{
       </Carousel>
       
    </div>
+   </Element>
  )
 }
 
