@@ -11,7 +11,6 @@ const Experience = () =>{
     setIndex(selectedIndex);
   };
  return (
-   <Element id="elementExperience" name="elementExperience">
    <div className="expSlider" id="expSection">
     <Carousel style={{width: "100%"}} activeIndex={index} onSelect={handleSelect} fade>
         <Carousel.Item style={{width: "100%", height: "550px"}}>
@@ -61,7 +60,6 @@ const Experience = () =>{
       </Carousel>
       
    </div>
-   </Element>
  )
 }
 

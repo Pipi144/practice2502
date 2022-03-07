@@ -6,7 +6,6 @@ import { Element } from "react-scroll"
 
 const SkillList = () => {
   return (
-    <Element id="elementSkill" name="elementSkill">
     <div className="skillListStyle" id="skillSection">
       <div className='textSkillStyle'>
        <h1 style={{fontSize: "50px", fontFamily: "fantasy", color: "gray", letterSpacing:"3px"}}>Career Abilities</h1>
@@ -22,7 +21,6 @@ const SkillList = () => {
        <LanguageList />
       </div>
     </div>
-    </Element>
   )
 }
 

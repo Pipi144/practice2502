@@ -4,7 +4,6 @@ import { Element } from "react-scroll"
 const MyInfo =() =>{
  const aboutMeText= "I'm a curious guy, always ask questions about everything, which is why I love digging deeper about anything triggering my curiousness. Besides, i love music because i was born in a musical-soul family, which leads me to this IT career after i accidentally watch a video about the chord 'C#'.  Yes, I was hooked with C# programming language, but today, i choose to be a front-end Developer because i feel it's the best suit for me. Finally, i love working as a team because i can share my ideas also absorb knowledge from my colleagues.";
  return (
-  <Element id="elementProfile" name="elementProfile">
   <div className="myInfo" id="profileSection">
    <div className="topText" style={{borderBottom: "2px solid black"}}>
     <h1 style={{fontFamily: "fantasy", color: "gray", letterSpacing:"3px"}}><bold>MY PROFILE</bold></h1>
@@ -31,7 +30,6 @@ const MyInfo =() =>{
     <p>Coding, Swimming, Lifting, Playing music</p>
    </div>
   </div>
-  </Element>
  )
 }
 

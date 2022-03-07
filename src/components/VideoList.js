@@ -20,7 +20,6 @@ const VideoList = () => {
   },
  ]
   return (
-   <Element id="elementVideo" name="elementVideo">
     <div className="expSlider" style={{textAlign: "center"}} id="videoList">
     <h1 style={{textShadow: "5px 5px grey", fontFamily: "sans-serif", color: "black"}}>Have A Good Day, Let's Enjoy Some Music Played By Me</h1>
       <Carousel style={{width: "100%"}} activeIndex={index} onSelect={handleSelect} fade interval={null}>
@@ -51,7 +50,6 @@ const VideoList = () => {
          </CarouselItem>
       </Carousel>
     </div>
-    </Element>
   )
 }
 

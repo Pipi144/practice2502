@@ -1,18 +1,34 @@
 import React from "react";
 import "./App.css"
-import Scroll from 'react-scroll';
+import { Link } from "react-scroll"
 
-const Link = Scroll.ScrollLink;
 
 const BannerWelcome = () => {
  return (
   <div className="title">
    <h1 >welcome<br/><br/>recruiter</h1>
    <div className="sideMenu">
-         <a>My Profile</a>
-    <a>Skills</a>
-    <a>Experience</a>
-    <a>Greeting</a>
+    <Link
+     to="profileSection" 
+     spy={true} 
+     smooth={true} 
+     offset={-5} 
+     duration={500}>
+     My Profile</Link>
+    <Link
+     to="expSection" 
+     spy={true} 
+     smooth={true} 
+     offset={-5} 
+     duration={500}>
+     Experiences</Link>
+     <Link
+     to="skillSection" 
+     spy={true} 
+     smooth={true} 
+     offset={-5} 
+     duration={500}>
+     Skills</Link>
    </div>
    
   </div>
