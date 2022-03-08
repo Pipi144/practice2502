@@ -6,6 +6,7 @@ import MyInfo from './MyInfo';
 import Experience from './Experience';
 import SkillList from './SkillList/SkillList';
 import VideoList from './VideoList';
+import Contact from './Contact';
 
 const App = () => {
    return (
@@ -16,6 +17,7 @@ const App = () => {
       <Experience/>
       <SkillList/>
       <VideoList />  
+      <Contact />
     </div> 
    );
 }

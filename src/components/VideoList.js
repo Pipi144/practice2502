@@ -25,14 +25,14 @@ const VideoList = () => {
       <Carousel style={{width: "100%"}} activeIndex={index} onSelect={handleSelect} fade interval={null}>
        {videoProperties.map(videoObj =>{
         return (
-         <CarouselItem key={videoObj.id} style={{width: "100%", height: "550px"}}>
+         <CarouselItem key={videoObj.id} style={{width: "100%", height: "400px"}}>
           <ReactPlayer 
            url={videoObj.src}
            width= "100%"
            pip= {true}
            controls= {true}
            playing= {true}
-           style={{borderRadius: "25px", height: "550px"}}
+           style={{borderRadius: "25px", height: "400px"}}
           />
           <Carousel.Caption>
            <h1>{videoObj.title}</h1>
@@ -41,8 +41,8 @@ const VideoList = () => {
          </CarouselItem>
         )
        })}
-       <CarouselItem style={{width: "100%", height: "550px"}}>
-          <img  src={require("./pic/thankyou.jpeg")} className="d-block w-100" style={{borderRadius: "25px", height: "550px"}}/>
+       <CarouselItem style={{width: "100%", height: "400px"}}>
+          <img  src={require("./pic/thankyou.jpeg")} className="d-block w-100" style={{borderRadius: "25px", height: "400px"}}/>
           <Carousel.Caption>
            <h1>Thank you for your valuable time</h1>
            <p style={{color: "lightblue"}}>Have a good day</p>

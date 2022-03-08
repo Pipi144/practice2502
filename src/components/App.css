@@ -103,7 +103,7 @@ body {
   transition: 0.35s ease-in-out;
   padding: 10px 10px;
   font-family: 'Montserrat';
-  color: white !important;
+  color: lightblue !important;
 }
 
 .sideMenu a:hover {
@@ -184,4 +184,34 @@ body {
   flex-direction: column;
   padding: 20px;
   width: 100%;
+}
+
+/*Contact style*/
+.contactComponent {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.contactContainer {
+  padding: 5px;
+  width: 100%;
+  background-color: grey;
+  padding-bottom: 10%;
+}
+
+.linkContainer {
+  padding-top: 5%;
+  border-top: 2px solid black;
+  margin-left: 20%;
+  margin-right: 20%;
+  display: flex;
+  flex-direction: column;
+}
+
+.linkItem {
+  display: flex;
+  flex-direction: row;
+  padding: 1%;
 }
