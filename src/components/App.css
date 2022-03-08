@@ -3,6 +3,10 @@
   background-color: transparent !important;
 }
 
+.ui.labeled.icon.menu.headerStyle a {
+  color: lightblue;
+}
+
 .ui.menu .item:before {
   position: relative !important;
 }
@@ -97,14 +101,14 @@ body {
 .sideMenu a {
   text-decoration: none;
   transition: 0.35s ease-in-out;
-  margin: 5px;
+  padding: 10px 10px;
   font-family: 'Montserrat';
-  color: black !important;
+  color: white !important;
 }
 
 .sideMenu a:hover {
   background-color: lightblue;
-  color: white !important;
+  color: black !important;
   cursor: pointer;
 }
 /*Myinfo Styling */
@@ -123,8 +127,8 @@ body {
   text-align: center;
 }
 .topText {
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 
 .myPortfolio {
@@ -173,10 +177,6 @@ body {
   text-align: center;
   border-bottom: 3px solid black;
   padding: 15px;
-}
-
-.textSkillStyle p {
-  font-size: 20px;
 }
 
 .ratingSectionStyle {

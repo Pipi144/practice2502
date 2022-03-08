@@ -9,12 +9,12 @@ const BannerWelcome = () => {
   <div className="title">
    <h1 >welcome<br/><br/>recruiter</h1>
    <div className="sideMenu" >
-   <Navbar expand="lg" >
+   <Navbar expand="lg" expand= {false}>
     <Container style={{display: "flex !important",  flexDirection: "row", justifyContent: "end", backgroundColor: "transparent"}}>
     <Navbar.Toggle 
      aria-controls="basic-navbar-nav" 
     >
-     <i class="arrow square down icon"></i>
+     <i class="arrow square down icon big"></i>
     </Navbar.Toggle>
     <Navbar.Collapse id="basic-navbar-nav" >
       <Nav className="me-auto" >

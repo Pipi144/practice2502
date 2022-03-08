@@ -2,13 +2,12 @@ import React from 'react'
 import "../App.css"
 import RatingList from './RatingList'
 import LanguageList from './LanguageList'
-import { Element } from "react-scroll"
 
 const SkillList = () => {
   return (
     <div className="skillListStyle" id="skillSection">
       <div className='textSkillStyle'>
-       <h1 style={{fontSize: "50px", fontFamily: "fantasy", color: "gray", letterSpacing:"3px"}}>Career Abilities</h1>
+       <h1 style={{fontFamily: "fantasy", color: "gray", letterSpacing:"3px"}}>Career Abilities</h1>
        <p style={{fontStyle: "italic"}}>"Learning never exhausts the mind."</p>
        <p>Leonardo Davinci</p>
       </div>
