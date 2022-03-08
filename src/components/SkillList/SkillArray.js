@@ -1,5 +1,6 @@
 const SkillArray = [
   {language: "Javascript", rate: "4"},
+  {language: "React", rate: "4"},
   {language: "CSS", rate: "4"},
   {language: "HTML", rate: "5"},
   {language: "MySQL", rate: "5"},

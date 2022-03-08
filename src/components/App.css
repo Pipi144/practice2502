@@ -48,6 +48,8 @@ body {
 
 #root {
   height: 100%;
+  margin-left: 12%;
+  margin-right: 12%;
 }
 
 .appBody {
