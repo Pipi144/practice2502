@@ -114,6 +114,11 @@ body {
   color: black !important;
   cursor: pointer;
 }
+.sideMenu i:hover {
+  background-color: lightblue !important;
+  color: black !important;
+  cursor: pointer;
+}
 /*Myinfo Styling */
 .myInfo {
   display: flex;
