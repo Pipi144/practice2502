@@ -10,11 +10,11 @@ const BannerWelcome = () => {
    <h1 >welcome<br/><br/>recruiter</h1>
    <div className="sideMenu" >
    <Navbar expand="lg" expand= {false}>
-    <Container style={{display: "flex !important",  flexDirection: "row", justifyContent: "end", backgroundColor: "transparent"}}>
+    <Container style={{display: "flex !important",  flexDirection: "row", justifyContent: "end", backgroundColor: "transparent", alignItems: "end"}}>
     <Navbar.Toggle 
      aria-controls="basic-navbar-nav" 
     >
-     <i class="arrow square down icon big"></i>
+     <i className="arrow square down icon big inverted"></i>
     </Navbar.Toggle>
     <Navbar.Collapse id="basic-navbar-nav" >
       <Nav className="me-auto" >
