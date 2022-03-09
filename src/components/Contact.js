@@ -11,7 +11,7 @@ const Contact = () => {
       <div className='linkContainer'>
        <div className='linkItem'>
        <i className="inverted big linkedin icon"></i>
-       <p>https://www.linkedin.com/feed/</p> 
+       <p>https://www.linkedin.com/in/minh-thanh-phat-truong-37a867165</p> 
        </div>
        <div className='linkItem'>
        <i className="inverted big phone icon"></i>
