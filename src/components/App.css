@@ -224,3 +224,13 @@ body {
   flex-direction: row;
   padding: 1%;
 }
+
+/*Responsive styling*/
+@media only screen and (max-width: 600px) {
+.appBody{
+  font-size: 0.75rem;
+}
+.sideMenu i{
+  font-size: 0.75rem !important;
+}
+}
