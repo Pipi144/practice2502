@@ -228,12 +228,15 @@ body {
 /*Responsive styling*/
 @media only screen and (max-width: 600px) {
 .appBody{
-  font-size: 0.75rem !important;
+  font-size: 0.8rem !important;
 }
 .appBody h1,h2,h3,h4,h5 {
-  font-size: 1rem !important;
+  font-size: 1.2rem !important;
 }
 .sideMenu i{
   font-size: 0.75rem !important;
+}
+.headerStyle .item i{
+  font-size: 0.5rem !important;
 }
 }
