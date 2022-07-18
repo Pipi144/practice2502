@@ -7,19 +7,11 @@ const Header = () => {
     <div className='aos' data-aos='fade-out'>
       <div className='header'>
         <div className='ui labeled icon menu headerStyle'>
-          <a
-            className='item'
-            href='https://www.linkedin.com/feed/'
-            target='_blank'
-          >
+          <a className='item' href='https://www.linkedin.com/feed/'>
             <i className='inverted linkedin icon'></i>
             LinkedIn
           </a>
-          <a
-            className='item'
-            href='https://www.facebook.com/truongmp/'
-            target='_blank'
-          >
+          <a className='item' href='https://www.facebook.com/truongmp/'>
             <i class='inverted facebook f icon'></i>
             Facebook
           </a>

@@ -13,7 +13,7 @@ const BannerWelcome = () => {
         recruiter
       </h1>
       <div className='sideMenu'>
-        <Navbar expand='lg' expand={false}>
+        <Navbar expand='lg'>
           <Container
             style={{
               display: 'flex !important',

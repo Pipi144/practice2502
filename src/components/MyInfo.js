@@ -27,6 +27,7 @@ const MyInfo = () => {
         className='ui medium circular image'
         src={require('./pic/profile.jpg')}
         style={{ border: '5px solid lightblue' }}
+        alt='Profile pic'
       ></img>
       <div className='myPortfolio'>
         <h2

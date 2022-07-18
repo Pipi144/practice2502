@@ -1,11 +1,9 @@
 import React from 'react'
 import './App.css'
 import { Carousel, CarouselItem } from 'react-bootstrap'
-import Vid1 from './Video/guitar.mp4'
 import Vid2 from './Video/piano.mp4'
 import ReactPlayer from 'react-player'
 import { useState } from 'react'
-import { Element } from 'react-scroll'
 const VideoList = () => {
   const [index, setIndex] = useState(0)
 
@@ -65,6 +63,7 @@ const VideoList = () => {
             src={require('./pic/thankyou.jpeg')}
             className='d-block w-100'
             style={{ borderRadius: '25px', height: '400px' }}
+            alt='Thank you'
           />
           <Carousel.Caption>
             <h1>Thank you for your valuable time</h1>
